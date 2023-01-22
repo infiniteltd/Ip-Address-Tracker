@@ -24,7 +24,7 @@ body {
     background-image: url(/images/pattern-bg.png);
     background-repeat: no-repeat;
     font-family: 'Rubik', sans-serif;
-    background-color: rgba(250, 235, 215, 0.726);
+    position: relative;
    
 }
 
@@ -101,7 +101,7 @@ input.error + button {
 }
 .ip-num h3 {
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 .ip-location h2 {
     text-transform: uppercase;
@@ -136,7 +136,7 @@ input.error + button {
 }
 .ip-isp h3 {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-right: 7rem;
 }
 .pointer {
     width: 2%;
@@ -144,7 +144,8 @@ input.error + button {
 }
 
 #map {
-    position: relative;
+   z-index: -1;
+    position: absolute;
 }
 
 @media (max-width: 799px) {

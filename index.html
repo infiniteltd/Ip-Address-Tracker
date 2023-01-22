@@ -13,9 +13,12 @@
       href="./images/favicon-32x32.png"
     />
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-    crossorigin="" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
 
     <link rel="stylesheet" href="/style.css" />
   </head>
@@ -30,38 +33,47 @@
             placeholder="Search for any IP address or domain"
           />
           <button>
-            <img src="/images/icon-arrow.svg" alt="Submit">
+            <img src="/images/icon-arrow.svg" alt="Submit" />
           </button>
         </form>
       </div>
       <div class="details">
         <div class="ip-num">
           <h2>Ip address</h2>
-          <h3 class="ip-address">_ _</h3>
+          <h3 class="ip-address">102.124.171.40</h3>
         </div>
         <hr />
         <div class="ip-location">
           <h2>Location</h2>
-          <h3 class="location">_ _</h3>
+          <h3 class="location">Jabi, Abuja</h3>
         </div>
         <hr />
         <div class="ip-timez">
           <h2>Timezone</h2>
-          <h3 class="timezone">_ _</h3>
+          <h3 class="timezone">UTC +01:00</h3>
         </div>
         <hr />
         <div class="ip-isp">
           <h2>Isp</h2>
-          <h3 class="ispname">_ _</h3>
+          <h3 class="ispname">Nile University</h3>
         </div>
       </div>
     </header>
     <main id="map">
-        <img
-          src="/images/icon-location.svg"
-          alt="location-icon"
-          class="pointer"
-        />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.5034632758134!2d7.399459914059123!3d9.017752391649754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e7506cc098c9f%3A0x713db1c45e39ed24!2sNile%20University%20of%20Nigeria!5e0!3m2!1sen!2sng!4v1674398721316!5m2!1sen!2sng"
+        width="1350"
+        height="400"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <img
+        src="/images/icon-location.svg"
+        alt="location-icon"
+        class="pointer"
+      />
     </main>
 
     <div class="attribution">
