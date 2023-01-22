@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | IP Address Tracker</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>IP Address Tracker</h1>
+      <div class="ip-input">
+        <form>
+          <input
+            id="ip"
+            type="text"
+            placeholder="Search for any IP address or domain"
+          />
+          <button>
+            <img src="/images/icon-arrow.svg" alt="Submit">
+          </button>
+        </form>
+      </div>
+      <div class="details">
+        <div class="ip-num">
+          <h2>Ip address</h2>
+          <h3 class="ip-address">_ _</h3>
+        </div>
+        <hr />
+        <div class="ip-location">
+          <h2>Location</h2>
+          <h3 class="location">_ _</h3>
+        </div>
+        <hr />
+        <div class="ip-timez">
+          <h2>Timezone</h2>
+          <h3 class="timezone">_ _</h3>
+        </div>
+        <hr />
+        <div class="ip-isp">
+          <h2>Isp</h2>
+          <h3 class="ispname">_ _</h3>
+        </div>
+      </div>
+    </header>
+    <main id="map">
+        <img
+          src="/images/icon-location.svg"
+          alt="location-icon"
+          class="pointer"
+        />
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">@infiniteltd</a>.
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
