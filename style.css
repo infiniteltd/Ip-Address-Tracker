@@ -33,6 +33,7 @@ header {
     margin-left: 5rem ;
     margin-right: 5rem;
     margin-top: 2rem;
+    position: relative;
 }
 
 header h1 {
@@ -50,7 +51,8 @@ input.error + button {
 
 .ip-input {
     padding: 1rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    position: absolute;
 }
 .ip-input input {
     margin-left: 20rem;
@@ -144,8 +146,9 @@ input.error + button {
 }
 
 #map {
-   z-index: -1;
-    position: absolute;
+   margin-bottom: auto;
+    /* position: relative; */
+    overflow: hidden;
 }
 
 @media (max-width: 799px) {
